@@ -1,0 +1,2 @@
+com/mks/core/CoreApplication.java
+ com.mks.core.CoreApplication
