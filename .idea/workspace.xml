@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b18b0ade-8ce0-4491-aeef-6c2451764f81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mks/core/MemberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mks/core/MemberApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mks/core/OrderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mks/core/OrderApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mks/core/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mks/core/member/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mks/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mks/core/order/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mks/core/member/MemberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mks/core/member/MemberServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mks/core/order/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mks/core/order/OrderServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +26,7 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -43,6 +49,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -56,9 +65,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.com.mks.core in core.test">
-    <configuration name="MemberApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mks.core.MemberApp" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mks.core.discount" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.OrderApp">
+    <configuration name="OrderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mks.core.OrderApp" />
       <module name="core.main" />
       <extension name="coverage">
         <pattern>
@@ -70,15 +87,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mks.core.OrderApp" />
-      <module name="core.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mks.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="All in core.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderApp" />
+        <item itemvalue="JUnit.All in core.test" />
         <item itemvalue="JUnit.com.mks.core in core.test" />
         <item itemvalue="JUnit.OrderServiceTest" />
-        <item itemvalue="Application.OrderApp" />
         <item itemvalue="JUnit.MemberServiceTest.join" />
-        <item itemvalue="Application.MemberApp" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +180,8 @@
       <option name="presentableId" value="Default" />
       <updated>1618311984408</updated>
       <workItem from="1618311988562" duration="9643000" />
-      <workItem from="1618533063421" duration="220000" />
+      <workItem from="1618533063421" duration="2500000" />
+      <workItem from="1618570411033" duration="8038000" />
     </task>
     <servers />
   </component>
@@ -176,26 +189,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="260" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1618364104713">
+    <state x="260" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1618574502410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="260" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618364104713" />
-    <state width="918" height="279" key="GridCell.Tab.0.bottom" timestamp="1618455255196">
+    <state x="260" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618574502410" />
+    <state width="1022" height="278" key="GridCell.Tab.0.bottom" timestamp="1618576918290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="918" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618455255196" />
-    <state width="918" height="279" key="GridCell.Tab.0.center" timestamp="1618455255195">
+    <state width="1022" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618576918290" />
+    <state width="1022" height="278" key="GridCell.Tab.0.center" timestamp="1618576918289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="918" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618455255195" />
-    <state width="918" height="279" key="GridCell.Tab.0.left" timestamp="1618455255194">
+    <state width="1022" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618576918289" />
+    <state width="1022" height="278" key="GridCell.Tab.0.left" timestamp="1618576918289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="918" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618455255194" />
-    <state width="918" height="279" key="GridCell.Tab.0.right" timestamp="1618455255195">
+    <state width="1022" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618576918289" />
+    <state width="1022" height="278" key="GridCell.Tab.0.right" timestamp="1618576918290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="918" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618455255195" />
+    <state width="1022" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618576918290" />
     <state width="918" height="279" key="GridCell.Tab.1.bottom" timestamp="1618323264860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -212,17 +225,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="918" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618323264860" />
+    <state x="288" y="458" key="ReplaceDuplicatesPrompt" timestamp="1618576564532">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="288" y="458" key="ReplaceDuplicatesPrompt/0.0.1920.1040@0.0.1920.1040" timestamp="1618576564532" />
     <state x="48" y="169" key="SettingsEditor" timestamp="1618533245375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="48" y="169" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618533245375" />
+    <state x="240" y="239" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1618570630173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="240" y="239" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618570630173" />
+    <state x="203" y="278" width="540" height="501" key="extract.method.dialog" timestamp="1618576560997">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="203" y="278" width="540" height="501" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618576560997" />
+    <state x="204" y="142" key="refactoring.ChangeSignatureDialog" timestamp="1618574508946">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="204" y="142" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618574508946" />
     <state x="135" y="243" key="run.anything.popup" timestamp="1618323219844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="135" y="243" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618323219844" />
-    <state x="200" y="230" key="search.everywhere.popup" timestamp="1618320707706">
+    <state x="200" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1618573661552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="200" y="230" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618320707706" />
+    <state x="200" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1618573661552" />
   </component>
 </project>
