@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b18b0ade-8ce0-4491-aeef-6c2451764f81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mks/core/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mks/core/discount/RateDiscountPolicy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mks/core/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mks/core/member/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mks/core/member/MemoryMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mks/core/member/MemoryMemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mks/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mks/core/order/OrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +50,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -96,10 +99,12 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mks.core.scan.filter" />
+      <recent name="com.mks.core" />
       <recent name="com.mks.core.beanfind" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in core.test">
+  <component name="RunManager" selected="JUnit.ComponentFilterAppConfigTest">
     <configuration name="All in core.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -108,17 +113,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConfigurationSingletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoAppConfigTest.basicScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mks.core.singleton.*" />
+          <option name="PATTERN" value="com.mks.core.scan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mks.core.singleton" />
-      <option name="MAIN_CLASS_NAME" value="com.mks.core.singleton.ConfigurationSingletonTest" />
+      <option name="PACKAGE_NAME" value="com.mks.core.scan" />
+      <option name="MAIN_CLASS_NAME" value="com.mks.core.scan.AutoAppConfigTest" />
+      <option name="METHOD_NAME" value="basicScan" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComponentFilterAppConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mks.core.scan.filter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mks.core.scan.filter" />
+      <option name="MAIN_CLASS_NAME" value="com.mks.core.scan.filter.ComponentFilterAppConfigTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComponentFilterAppConfigTest.filterScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mks.core.scan.filter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mks.core.scan.filter" />
+      <option name="MAIN_CLASS_NAME" value="com.mks.core.scan.filter.ComponentFilterAppConfigTest" />
+      <option name="METHOD_NAME" value="filterScan" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,37 +176,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mks.core.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mks.core.singleton" />
-      <option name="MAIN_CLASS_NAME" value="com.mks.core.singleton.SingletonTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StatefulServiceTest.statefulServiceSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mks.core.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mks.core.singleton" />
-      <option name="MAIN_CLASS_NAME" value="com.mks.core.singleton.StatefulServiceTest" />
-      <option name="METHOD_NAME" value="statefulServiceSingleton" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="core.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.mks.core.CoreApplication" />
@@ -179,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ComponentFilterAppConfigTest" />
+        <item itemvalue="JUnit.ComponentFilterAppConfigTest.filterScan" />
+        <item itemvalue="JUnit.AutoAppConfigTest.basicScan" />
         <item itemvalue="JUnit.All in core.test" />
         <item itemvalue="JUnit.ConfigurationSingletonTest.configurationDeep" />
-        <item itemvalue="JUnit.ConfigurationSingletonTest" />
-        <item itemvalue="JUnit.StatefulServiceTest.statefulServiceSingleton" />
-        <item itemvalue="JUnit.SingletonTest" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +235,7 @@
       <workItem from="1624113932740" duration="755000" />
       <workItem from="1624176788438" duration="698000" />
       <workItem from="1624544349384" duration="3300000" />
-      <workItem from="1625401836971" duration="4615000" />
+      <workItem from="1625401836971" duration="9405000" />
     </task>
     <servers />
   </component>
@@ -245,38 +251,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="136" y="455" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621834231912" />
-    <state width="785" height="279" key="GridCell.Tab.0.bottom" timestamp="1625406527533">
+    <state width="785" height="276" key="GridCell.Tab.0.bottom" timestamp="1625459118515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="785" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625406527533" />
-    <state width="785" height="279" key="GridCell.Tab.0.center" timestamp="1625406527532">
+    <state width="785" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625459118515" />
+    <state width="785" height="276" key="GridCell.Tab.0.center" timestamp="1625459118514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="785" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625406527532" />
-    <state width="785" height="279" key="GridCell.Tab.0.left" timestamp="1625406527532">
+    <state width="785" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625459118514" />
+    <state width="785" height="276" key="GridCell.Tab.0.left" timestamp="1625459118514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="785" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625406527532" />
-    <state width="785" height="279" key="GridCell.Tab.0.right" timestamp="1625406527532">
+    <state width="785" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625459118514" />
+    <state width="785" height="276" key="GridCell.Tab.0.right" timestamp="1625459118515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="785" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625406527532" />
-    <state width="918" height="279" key="GridCell.Tab.1.bottom" timestamp="1618323264860">
+    <state width="785" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625459118515" />
+    <state width="785" height="348" key="GridCell.Tab.1.bottom" timestamp="1625459099393">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="918" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618323264860" />
-    <state width="918" height="279" key="GridCell.Tab.1.center" timestamp="1618323264859">
+    <state width="785" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625459099393" />
+    <state width="785" height="348" key="GridCell.Tab.1.center" timestamp="1625459099392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="918" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618323264859" />
-    <state width="918" height="279" key="GridCell.Tab.1.left" timestamp="1618323264859">
+    <state width="785" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625459099392" />
+    <state width="785" height="348" key="GridCell.Tab.1.left" timestamp="1625459099392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="918" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618323264859" />
-    <state width="918" height="279" key="GridCell.Tab.1.right" timestamp="1618323264860">
+    <state width="785" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625459099392" />
+    <state width="785" height="348" key="GridCell.Tab.1.right" timestamp="1625459099392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="918" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618323264860" />
+    <state width="785" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625459099392" />
     <state x="288" y="458" key="ReplaceDuplicatesPrompt" timestamp="1618576564532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
