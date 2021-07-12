@@ -1,5 +1,6 @@
 package com.mks.core.order;
 
+import com.mks.core.annotation.MainDiscountPolicy;
 import com.mks.core.discount.DiscountPolicy;
 import com.mks.core.member.Member;
 import com.mks.core.member.MemberRepository;
@@ -17,7 +18,7 @@ public class OrderServiceImpl implements OrderService{
 
     //생성자 주입시 생성자 하나인 것은 @Autowired 생략해도 됨
     @Autowired
-    public OrderServiceImpl(MemberRepository memberRepository, @Qualifier("mainDiscountPolicy") DiscountPolicy discountPolicy) {
+    public OrderServiceImpl(MemberRepository memberRepository, @MainDiscountPolicy DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;
     }
