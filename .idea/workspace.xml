@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b18b0ade-8ce0-4491-aeef-6c2451764f81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mks/core/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mks/core/discount/RateDiscountPolicy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mks/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mks/core/order/OrderServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +46,8 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -102,32 +100,8 @@
       <recent name="com.mks.core.beanfind" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in core.test">
-    <configuration name="All in core" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in core.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in core.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="core.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AutowiredTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AllBeanTest">
+    <configuration name="AllBeanTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
@@ -136,23 +110,69 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.mks.core.autowired" />
-      <option name="MAIN_CLASS_NAME" value="com.mks.core.autowired.AutowiredTest" />
+      <option name="MAIN_CLASS_NAME" value="com.mks.core.autowired.AllBeanTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComponentFilterAppConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AllBeanTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mks.core.scan.filter.*" />
+          <option name="PATTERN" value="com.mks.core.autowired.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mks.core.scan.filter" />
-      <option name="MAIN_CLASS_NAME" value="com.mks.core.scan.filter.ComponentFilterAppConfigTest" />
+      <option name="PACKAGE_NAME" value="com.mks.core.autowired" />
+      <option name="MAIN_CLASS_NAME" value="com.mks.core.autowired.AllBeanTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllBeanTest (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mks.core.autowired.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mks.core.autowired" />
+      <option name="MAIN_CLASS_NAME" value="com.mks.core.autowired.AllBeanTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllBeanTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mks.core.autowired.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mks.core.autowired" />
+      <option name="MAIN_CLASS_NAME" value="com.mks.core.autowired.AllBeanTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AllBeanTest.findAllBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mks.core.autowired.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mks.core.autowired" />
+      <option name="MAIN_CLASS_NAME" value="com.mks.core.autowired.AllBeanTest" />
+      <option name="METHOD_NAME" value="findAllBean" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in core.test" />
-        <item itemvalue="JUnit.All in core" />
-        <item itemvalue="JUnit.AutowiredTest" />
-        <item itemvalue="JUnit.All in core.test (1)" />
-        <item itemvalue="JUnit.ComponentFilterAppConfigTest" />
+        <item itemvalue="JUnit.AllBeanTest" />
+        <item itemvalue="JUnit.AllBeanTest.findAllBean" />
+        <item itemvalue="JUnit.AllBeanTest (4)" />
+        <item itemvalue="JUnit.AllBeanTest (3)" />
+        <item itemvalue="JUnit.AllBeanTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +241,9 @@
       <workItem from="1625755778851" duration="659000" />
       <workItem from="1625890489578" duration="809000" />
       <workItem from="1626091421276" duration="758000" />
-      <workItem from="1626092425941" duration="5503000" />
+      <workItem from="1626092425941" duration="7259000" />
+      <workItem from="1626185333311" duration="2402000" />
+      <workItem from="1626344466384" duration="1178000" />
     </task>
     <servers />
   </component>
@@ -229,10 +251,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="260" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1626092811443">
+    <state x="260" y="246" key="#com.intellij.ide.util.MemberChooser" timestamp="1626102807170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="260" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1626092811443" />
+    <state x="260" y="246" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1626102807170" />
     <state x="136" y="455" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1621834231912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -241,22 +263,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1042" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626099986753" />
-    <state width="1021" height="273" key="GridCell.Tab.0.bottom" timestamp="1626102435208">
+    <state width="1021" height="270" key="GridCell.Tab.0.bottom" timestamp="1626345062817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1021" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626102435208" />
-    <state width="1021" height="273" key="GridCell.Tab.0.center" timestamp="1626102435207">
+    <state width="1021" height="270" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1626345062817" />
+    <state width="1021" height="270" key="GridCell.Tab.0.center" timestamp="1626345062815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1021" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626102435207" />
-    <state width="1021" height="273" key="GridCell.Tab.0.left" timestamp="1626102435207">
+    <state width="1021" height="270" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1626345062815" />
+    <state width="1021" height="270" key="GridCell.Tab.0.left" timestamp="1626345062815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1021" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626102435207" />
-    <state width="1021" height="273" key="GridCell.Tab.0.right" timestamp="1626102435208">
+    <state width="1021" height="270" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1626345062815" />
+    <state width="1021" height="270" key="GridCell.Tab.0.right" timestamp="1626345062816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1021" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626102435208" />
+    <state width="1021" height="270" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1626345062816" />
     <state width="785" height="348" key="GridCell.Tab.1.bottom" timestamp="1625641577599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -285,10 +307,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1621835406701" />
-    <state x="233" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1626092427631">
+    <state x="233" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1626186025355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="233" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626092427630" />
+    <state x="233" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1626186025355" />
     <state x="240" y="239" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1625404413696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
